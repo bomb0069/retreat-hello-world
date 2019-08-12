@@ -1,0 +1,14 @@
+{
+	"id": "67b8dc4e-b9e2-4568-a1df-2b8857506737",
+	"name": "Local",
+	"values": [
+		{
+			"key": "URL",
+			"value": "http://localhost:3000",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2019-08-12T03:51:22.796Z",
+	"_postman_exported_using": "Postman/7.2.2"
+}

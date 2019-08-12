@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "64e045ae-645f-4171-b18f-4c80e395b930",
+		"name": "Retreat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Hello World",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "27950a2d-3be2-42c2-9107-10b03b233a14",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Message must be สวัสดีชาวโลก\", function () {",
+							"    var body = pm.response.json();",
+							"    pm.expect(body.message).to.eql(\"สวัสดีชาวโลก\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/hello",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
