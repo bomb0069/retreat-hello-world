@@ -1,0 +1,6 @@
+mode: set
+say/internal/platform/repository/say.go:21.44,24.16 3 1
+say/internal/platform/repository/say.go:27.2,27.12 1 1
+say/internal/platform/repository/say.go:24.16,26.3 1 0
+say/cmd/handler/say.go:17.59,22.2 4 1
+say/cmd/handler/say.go:24.48,26.2 1 1
